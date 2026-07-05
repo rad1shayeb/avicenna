@@ -1,0 +1,31 @@
+{
+  "patientNoFieldPattern": "Patient No.*",
+  "searchButtonPattern": ".*([Ss]earch|[Ff]ind).*",
+  "searchTimeoutMs": 15000,
+  "tabLoadTimeoutMs": 8000,
+  "demographicFields": {
+    "patientNo": "Patient No.*",
+    "nameLocal": "Name\\(A\\).*",
+    "nameEnglish": "Name\\(E\\).*",
+    "nationalId": "National Id.*",
+    "age": "Age.*",
+    "gender": "Gender.*",
+    "phone": "Phone.*",
+    "bloodGroup": "Blood Group.*"
+  },
+  "tabButtons": {
+    "VisitsAdmissions": "Visits.*Admissions.*",
+    "Diagnosis": "Diagnosis.*",
+    "Form": "Form.*",
+    "Reports": "Reports.*",
+    "Radiology": "Radiology.*",
+    "Laboratory": "Laboratory.*",
+    "HospitalizationInfo": "Hospitalization Info.*",
+    "Operations": "Oprs.*",
+    "Pathology": "Pathology.*",
+    "BloodBank": "Blood Bank.*",
+    "Drug": "Drug.*",
+    "RelatedDocuments": "Related Documents.*",
+    "RefusedOrders": "Refused Orders.*"
+  }
+}

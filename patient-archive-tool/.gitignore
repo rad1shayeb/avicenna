@@ -1,0 +1,5 @@
+target/
+archive/
+*.class
+accessible-tree.json
+dependency-reduced-pom.xml
