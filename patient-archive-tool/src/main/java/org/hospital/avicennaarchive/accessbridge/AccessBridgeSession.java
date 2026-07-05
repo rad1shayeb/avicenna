@@ -67,6 +67,31 @@ public class AccessBridgeSession implements AutoCloseable {
         return vmID;
     }
 
+    /**
+     * Lists every visible top-level window with a non-empty title and whether the
+     * Access Bridge recognizes it as a Java window. Used for diagnostics when
+     * attachToWindow fails - it distinguishes "the window isn't there" from
+     * "the window is there but the bridge doesn't see it as Java" (target not
+     * restarted after enabling, or a privilege-level mismatch).
+     */
+    public List<String> describeTopLevelWindows() {
+        List<String> out = new ArrayList<>();
+        User32.INSTANCE.EnumWindows((hWnd, data) -> {
+            if (!User32.INSTANCE.IsWindowVisible(hWnd)) {
+                return true;
+            }
+            char[] buf = new char[512];
+            User32.INSTANCE.GetWindowText(hWnd, buf, buf.length);
+            String title = Native.toString(buf);
+            if (title != null && !title.trim().isEmpty()) {
+                boolean java = bridge.isJavaWindow(hWnd.getPointer());
+                out.add("[java=" + java + "] " + title);
+            }
+            return true;
+        }, null);
+        return out;
+    }
+
     public Pointer rootContext() {
         return topLevelAc;
     }

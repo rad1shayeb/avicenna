@@ -29,8 +29,16 @@ public class TreeDumperCli {
         session.init();
         System.out.println("Looking for a window with title containing: " + titleSubstring);
         if (!session.attachToWindow(titleSubstring, 20000)) {
-            System.err.println("Could not find/attach to the window. Confirm Java Access Bridge is enabled " +
-                "(run 'jabswitch /enable' then restart the Avicenna client) and the window is open.");
+            System.err.println("Could not find/attach to a window whose title contains \"" + titleSubstring + "\".");
+            System.err.println("Visible top-level windows the bridge can see right now:");
+            for (String w : session.describeTopLevelWindows()) {
+                System.err.println("  " + w);
+            }
+            System.err.println();
+            System.err.println("If the Avicenna window is listed with [java=false], the bridge is not active in it: ");
+            System.err.println("  enable it on Avicenna's JRE ('jre8\\bin\\jabswitch.exe /enable') and RESTART the client.");
+            System.err.println("If the Avicenna window is not listed at all, this tool and Avicenna are likely running");
+            System.err.println("  at different privilege levels - run both as Administrator (or both normally).");
             System.exit(1);
         }
 
