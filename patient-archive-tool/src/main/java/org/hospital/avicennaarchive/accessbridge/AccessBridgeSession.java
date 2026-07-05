@@ -9,6 +9,7 @@ import com.sun.jna.ptr.PointerByReference;
 import org.hospital.avicennaarchive.model.AccessibleNode;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.function.BooleanSupplier;
 
@@ -81,7 +82,7 @@ public class AccessBridgeSession implements AutoCloseable {
     public List<Pointer> childrenOf(Pointer ac) {
         AccessibleContextInfo info = infoOf(ac);
         if (info == null) {
-            return List.of();
+            return Collections.emptyList();
         }
         List<Pointer> children = new ArrayList<>(info.childrenCount);
         for (int i = 0; i < info.childrenCount; i++) {

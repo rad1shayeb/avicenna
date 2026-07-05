@@ -8,6 +8,7 @@ import org.hospital.avicennaarchive.model.PatientRecord;
 
 import java.io.File;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /**
  * Usage: java -jar patient-archive-tool.jar <patientId> [outputDir] [tab-selectors.json] [windowTitleSubstring]
@@ -24,7 +25,7 @@ public class PatientArchiverCli {
             System.exit(2);
         }
         String patientId = args[0];
-        Path outputDir = Path.of(args.length > 1 ? args[1] : "archive");
+        Path outputDir = Paths.get(args.length > 1 ? args[1] : "archive");
         TabSelectors selectors = args.length > 2
             ? TabSelectors.load(new File(args[2]))
             : TabSelectors.loadDefault();

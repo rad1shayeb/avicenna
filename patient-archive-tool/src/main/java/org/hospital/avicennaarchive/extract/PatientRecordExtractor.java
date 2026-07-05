@@ -6,6 +6,7 @@ import org.hospital.avicennaarchive.model.PatientRecord;
 
 import java.time.Instant;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,10 +50,10 @@ public class PatientRecordExtractor {
 
         Pointer nameField = session.findByName(root, selectors.demographicFields.get("nameEnglish"), null);
         AccessBridgeSession.waitUntil(
-            () -> nameField != null && !session.readText(nameField).isBlank(),
+            () -> nameField != null && !session.readText(nameField).trim().isEmpty(),
             selectors.searchTimeoutMs, 300);
 
-        if (nameField == null || session.readText(nameField).isBlank()) {
+        if (nameField == null || session.readText(nameField).trim().isEmpty()) {
             throw new IllegalStateException("Patient " + patientId +
                 " did not load within " + selectors.searchTimeoutMs + "ms - check the ID exists and is visible " +
                 "to this doctor account, or that the search trigger (searchButtonPattern) actually fired the lookup.");
@@ -77,7 +78,7 @@ public class PatientRecordExtractor {
     private List<Map<String, String>> extractTab(Pointer root, String tabNamePattern) {
         Pointer tabButton = session.findByName(root, tabNamePattern, null);
         if (tabButton == null) {
-            return List.of();
+            return Collections.emptyList();
         }
         session.invokeAction(tabButton, "click");
         AccessBridgeSession.waitUntil(() -> true, Math.min(selectors.tabLoadTimeoutMs, 1000), 1000);

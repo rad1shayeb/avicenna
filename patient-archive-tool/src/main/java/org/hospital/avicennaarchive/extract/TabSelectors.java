@@ -23,7 +23,7 @@ public class TabSelectors {
     public long tabLoadTimeoutMs = 8000;
 
     public static TabSelectors loadDefault() throws IOException {
-        try (var in = TabSelectors.class.getResourceAsStream("/tab-selectors.json")) {
+        try (java.io.InputStream in = TabSelectors.class.getResourceAsStream("/tab-selectors.json")) {
             if (in == null) {
                 throw new IOException("tab-selectors.json not found on classpath");
             }
