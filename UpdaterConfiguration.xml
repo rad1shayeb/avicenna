@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration applicationType="Client" facility="Prod2" debug="false" forceUpdate="true">
+	<configurationFiles>
+		<configurationFile type="local" path="" fileName="Configuration.xml"/>
+	</configurationFiles>
+</Configuration>

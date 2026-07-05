@@ -1,0 +1,36 @@
+01/07/2026 12:06:22 [err] Exception in thread "Thread-5" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'barOdemeSorguGonderilenlerModel' defined in URL [jar:file:/C:/avicennanew/jars/client/GSS_DSL.jar!/META-INF/module-context.xml]: Cannot resolve reference to bean 'osOdemesorgugirisdvoDAO' while setting bean property 'odemesorgugirisdvoDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+01/07/2026 12:06:22 [err] 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+01/07/2026 12:06:22 [err] 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+01/07/2026 12:06:22 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+01/07/2026 12:06:22 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+01/07/2026 12:06:22 [err] 	at com.datasel.avicenna.util.ContextUtils.getContext(ContextUtils.java:16)
+01/07/2026 12:06:22 [err] 	at com.datasel.avicenna.mainboard.configuration.ACRunnerSessionConfiguration.run(ACRunnerSessionConfiguration.java:47)
+01/07/2026 12:06:22 [err] 	at java.lang.Thread.run(Thread.java:748)
+01/07/2026 12:06:22 [err] Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:553)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1095)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:277)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+01/07/2026 12:06:22 [err] 	... 17 more
+01/07/2026 12:07:33 [err] QMATICDEVICEID does not present in session
+01/07/2026 12:07:33 [err] Qmatic device is not available! null
+01/07/2026 12:07:37 [err] LcdDisplay is not available. Connection refused: connect
+01/07/2026 12:21:59 [err] java.lang.NullPointerException
+01/07/2026 12:21:59 [err] 	at com.datasel.avicenna.qmatic.ACQmaticManager.dispose(ACQmaticManager.java:71)
+01/07/2026 12:21:59 [err] 	at com.datasel.avicenna.qmatic.ACQmaticManager.finalize(ACQmaticManager.java:58)
+01/07/2026 12:21:59 [err] 	at java.lang.System$2.invokeFinalize(System.java:1270)
+01/07/2026 12:21:59 [err] 	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:102)
+01/07/2026 12:21:59 [err] 	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+01/07/2026 12:21:59 [err] 	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:217)

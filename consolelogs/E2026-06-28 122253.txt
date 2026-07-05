@@ -1,0 +1,51 @@
+28/06/2026 12:22:57 [err] Exception in thread "Thread-5" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'barOdemeSorguGonderilenlerModel' defined in URL [jar:file:/C:/avicennanew/jars/client/GSS_DSL.jar!/META-INF/module-context.xml]: Cannot resolve reference to bean 'osOdemesorgugirisdvoDAO' while setting bean property 'odemesorgugirisdvoDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+28/06/2026 12:22:57 [err] 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+28/06/2026 12:22:57 [err] 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+28/06/2026 12:22:57 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+28/06/2026 12:22:57 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+28/06/2026 12:22:57 [err] 	at com.datasel.avicenna.util.ContextUtils.getContext(ContextUtils.java:16)
+28/06/2026 12:22:57 [err] 	at com.datasel.avicenna.mainboard.configuration.ACRunnerSessionConfiguration.run(ACRunnerSessionConfiguration.java:47)
+28/06/2026 12:22:57 [err] 	at java.lang.Thread.run(Thread.java:748)
+28/06/2026 12:22:57 [err] Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:553)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1095)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:277)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+28/06/2026 12:22:57 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+28/06/2026 12:22:57 [err] 	... 17 more
+28/06/2026 12:23:13 [err] ACServerException level:Error code:EXP_INCORRECT_PASSWORD causeMessage:null parameters.length:0
+28/06/2026 12:23:13 [err] 	at com.datasel.avicenna.sec.server.SecLogonManager.logonAvicenna(SecLogonManager.java:264)
+28/06/2026 12:23:13 [err] 	at sun.reflect.GeneratedMethodAccessor4874.invoke(Unknown Source)
+28/06/2026 12:23:13 [err] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+28/06/2026 12:23:13 [err] 	at java.lang.reflect.Method.invoke(Method.java:498)
+28/06/2026 12:23:13 [err] 	at com.datasel.avicenna.server.ACManagerMethodModel.invoke(ACManagerMethodModel.java:78)
+28/06/2026 12:23:13 [err] 	at com.datasel.avicenna.server.ServerFrontController.invokeMethod(ServerFrontController.java:138)
+28/06/2026 12:23:13 [err] 	at com.datasel.avicenna.serverrunner.requestHandlers.ServerRequestHandlerProxy.handle(ServerRequestHandlerProxy.java:134)
+28/06/2026 12:23:13 [err] 	at com.datasel.avicenna.serverrunner.ClientRequestHandler.handle0(ClientRequestHandler.java:85)
+28/06/2026 12:23:13 [err] 	at com.datasel.avicenna.serverrunner.ClientRequestHandler.handle(ClientRequestHandler.java:37)
+28/06/2026 12:23:13 [err] 	at com.datasel.avicenna.serverrunner.ClientRequestHandler.handle(ClientRequestHandler.java:73)
+28/06/2026 12:23:13 [err] 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+28/06/2026 12:23:13 [err] 	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+28/06/2026 12:23:13 [err] 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:281)
+28/06/2026 12:23:13 [err] 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+28/06/2026 12:23:13 [err] 	at org.eclipse.jetty.io.AbstractConnection$1.run(AbstractConnection.java:505)
+28/06/2026 12:23:13 [err] 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+28/06/2026 12:23:13 [err] 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+28/06/2026 12:23:13 [err] 	at java.lang.Thread.run(Thread.java:748)
+29/06/2026 01:04:56 [err] Application server connection refused: http://10.222.3.10:1980/
+29/06/2026 02:15:02 [err] Application server connection refused: http://10.222.3.16:1980/
+30/06/2026 01:46:03 [err] Application server connection refused: http://10.222.3.14:1980/
+30/06/2026 02:26:03 [err] Application server connection refused: http://10.222.3.17:1980/
+30/06/2026 02:46:03 [err] Application server connection refused: http://10.222.3.19:1980/
+01/07/2026 02:16:03 [err] Application server connection refused: http://10.222.3.16:1980/

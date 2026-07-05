@@ -1,0 +1,106 @@
+25/06/2026 09:56:18 [out] 25/06/2026 09:56:18 [err] manager:com.datasel.avicenna.client.util.IServerDate methodException in thread "Thread-5" Name:getorg.springframework.beans.factory.BeanCreationException: Error creatingTimeZone bean with name 'barOdemeSorguGonderilenlerModel' defined in URL [jar:file:/C:/avicennanew/jars/client/GSS_DSL.jar!/META-INF/module-context.xml]: Cannot resolve reference to bean 'osOdemesorgugirisdvoDAO' while setting
+ bean property 'odemesorgugirisdvoDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory25/06/2026 09:56:18 [out] ----.-------j>saelectevd app as:e5r1v7e)r ad
+dress25/06/2026 09:56:18 [err] : 	hatttp :o/r/g1.0s.p2r2i2n.3g.f1r4a:m1e9w8o0r/k.b
+eans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+25/06/2026 09:56:18 [err] 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+25/06/2026 09:56:18 [err] 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+25/06/2026 09:56:18 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+25/06/2026 09:56:18 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+25/06/2026 09:56:18 [err] 	at com.datasel.avicenna.util.ContextUtils.getContext(ContextUtils.java:16)
+25/06/2026 09:56:18 [err] 	at com.datasel.avicenna.mainboard.configuration.ACRunnerSessionConfiguration.run(ACRunnerSessionConfiguration.java:47)
+25/06/2026 09:56:18 [err] 	at java.lang.Thread.run(Thread.java:748)
+25/06/2026 09:56:18 [err] Caused by: org.springframework.bean25/06/2026 09:56:18 [out] sEa.sftaecrtno rEyu.rNoopSeuacnh BTeiamneDe
+finitio25/06/2026 09:56:18 [out] nmEaxncaegpetri:ocno:m .Ndoa tbaesaenl .naavmiecde n'noas.Ocdleimeensto.rugtuigli.rIiSsedrvvoeDrADOa't ei sm edtehfoidnNeadme:
+getTim25/06/2026 09:56:18 [err] e	a
+t org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:553)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1095)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:277)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+25/06/2026 09:56:18 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+25/06/2026 09:56:18 [err] 	... 17 more
+25/06/2026 09:56:18 [out] manager:com.datasel.avicenna.sec.shared.ISecMenu methodName:getDatabaseName
+25/06/2026 09:56:18 [out] Dialog class name:com.datasel.avicenna.client.wizard.WizardDialog
+25/06/2026 09:56:18 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+25/06/2026 09:56:18 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+25/06/2026 09:56:26 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:logonAvicenna
+25/06/2026 09:56:26 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaff
+25/06/2026 09:56:26 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:checkServerSession
+25/06/2026 09:56:26 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+25/06/2026 09:56:26 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:getMenusOfUser
+25/06/2026 09:56:26 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getUserPermissions
+25/06/2026 09:56:27 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganization
+25/06/2026 09:56:27 [out] manager:com.datasel.avicenna.hdm.shared.IHdmSection methodName:getSection
+25/06/2026 09:56:27 [out] manager:com.datasel.avicenna.component.shared.IACComponent methodName:getTableLayouts
+25/06/2026 09:56:28 [out]  AuthId :1000051000857 FiscalYear :? Section :1001000431313 Organization :1101029296576 Name :88974 FullName :ÝÄÇÏ äÇÝÚÉ StaffId :1101000446027 Language :en
+25/06/2026 09:56:28 [out] certificate path:C:\avicennanew/jssecacerts
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : GSSTESISKODU Section:1001000431313 Answer:(11060002)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : GSSUSERNAME Section:1001000431313 Answer:(11060002)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : GSSPASSWORD Section:1001000431313 Answer:(99667679)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : MERNISUSERID Section:1001000431313 Answer:(1)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : MERNISPASSWORD Section:1001000431313 Answer:(1)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : KIZILAYUSERNAME Section:1001000431313 Answer:(0)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : KIZILAYPASSWORD Section:1001000431313 Answer:(0)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : CKYSUSERNAME Section:1001000431313 Answer:(datasel)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : CKYSPASSWORD Section:1001000431313 Answer:(datasel2342)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : EHEALTHKURUMKODU Section:1001000431313 Answer:(318591)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : CGMUSERNAME Section:1001000431313 Answer:(111)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : CGMPASSWORD Section:1001000431313 Answer:(111)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : CGMUSERNAMEFORIS Section:1001000431313 Answer:(0)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : CGMPASSWORDFORIS Section:1001000431313 Answer:(0)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : EINVUSERNAME Section:1001000431313 Answer:(0)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : EINVPASSWORD Section:1001000431313 Answer:(0)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : EINVINSTITUTION Section:1001000431313 Answer:(0)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmFiscalYear methodName:getSelectableFiscalYears
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : AVCMAILREFRESHDELAY Section:1001000431313 Answer:(2)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.sec.shared.ISecGrant methodName:isCodeValueCodeGrantedForUser
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:28 [out] Parameter Cache Put : ACLOGOUTTIME Section:1001000431313 Answer:(30)
+25/06/2026 09:56:28 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+25/06/2026 09:56:34 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+25/06/2026 09:56:34 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryGroupsWithoutDetail
+25/06/2026 09:56:34 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+25/06/2026 09:56:34 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getQuestionairesByTypeAndStaff
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getPreviousQuestionaires
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:35 [out] Parameter Cache Put : VENTURAEXISTS Section:1001000431313 Answer:(0)
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryGroupsWithoutDetail
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getQuestionairesByTypeAndStaff
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getPreviousQuestionaires
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+25/06/2026 09:56:35 [out] Parameter Cache Put : MRSEPISODETABORDER Section:1001000431313 Answer:(1)
+25/06/2026 09:56:35 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+25/06/2026 09:56:38 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+25/06/2026 09:56:39 [out] *** failed locating resource: com/datasel/avicenna/rss/core/icons//out-of-office-48.png

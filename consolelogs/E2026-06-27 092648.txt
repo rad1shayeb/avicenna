@@ -1,0 +1,31 @@
+27/06/2026 09:26:50 [err] Exception in thread "Thread-5" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'barOdemeSorguGonderilenlerModel' defined in URL [jar:file:/C:/avicennanew/jars/client/GSS_DSL.jar!/META-INF/module-context.xml]: Cannot resolve reference to bean 'osOdemesorgugirisdvoDAO' while setting bean property 'odemesorgugirisdvoDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+27/06/2026 09:26:50 [err] 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+27/06/2026 09:26:50 [err] 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+27/06/2026 09:26:50 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+27/06/2026 09:26:50 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+27/06/2026 09:26:50 [err] 	at com.datasel.avicenna.util.ContextUtils.getContext(ContextUtils.java:16)
+27/06/2026 09:26:50 [err] 	at com.datasel.avicenna.mainboard.configuration.ACRunnerSessionConfiguration.run(ACRunnerSessionConfiguration.java:47)
+27/06/2026 09:26:50 [err] 	at java.lang.Thread.run(Thread.java:748)
+27/06/2026 09:26:50 [err] Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:553)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1095)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:277)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+27/06/2026 09:26:50 [err] 	... 17 more
+27/06/2026 09:27:45 [err] dw==:IIsHq/gOTPWNiDFCGy22s+5vPBA= is not found in BarAdmissionFrameGridBag
+27/06/2026 09:27:45 [err] dw==:IIsHq/gOTPWNiDFCGy22s+5vPBA= is not found in BarAdmissionFrameGridBag
+27/06/2026 09:29:59 [err] choosePatientICDZ48.9-Surgical follow-up care, unspecified
+27/06/2026 09:55:09 [err] choosePatientICDQ42.3-Congenital absence, atresia and stenosis of anus without fistula
+27/06/2026 10:33:56 [err] choosePatientICDZ93.3-Colostomy status

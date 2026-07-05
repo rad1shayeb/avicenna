@@ -1,0 +1,1 @@
+jdk8/bin/java -cp AutoUpdaterClient.jar com.datasel.autoupdater.client.AutoUpdater

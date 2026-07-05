@@ -1,0 +1,1802 @@
+01/07/2026 12:06:22 [out] 01/07/2026 12:06:22 [err] Excepmanager:com.datasel.avitcienna.client.util.IServerDateo nmethodName:getTimeZone
+ in thread "Thread-5" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'barOdemeSorguGonderilenlerModel' defined in URL [jar:file:/C:/avicennanew/jars/client/GSS_DSL.jar!/META-INF/module-context.xml]: Cannot resolve reference to bean 'osOdemesorgugirisdvoDAO' while setting bean property 'odemesorgugirisdvoDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+01/07/2026 12:06:22 [out] ----------->selected01/07/2026 12:06:22 [err]  app 	saetr voerrg .asdpdrriensgsf:r hatmtepw:o/r/k1.0b.e2a2n2s..3f.a1ctory3.:s1u9p8p0o/rt.
+BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.01/07/2026 12:06:22 [out] DEeafsatuelrtnS iEnugrloepteoannB eTainmReeg
+istry.01/07/2026 12:06:22 [out] gmeatnSaignegrl:ectoomn.(dDaetfaasuellt.SainvgilceetnonnaB.ecalniReengti.suttriyl..jIaSevrav:e2r2D5a)te 
+method01/07/2026 12:06:22 [err] Nam	ea:tg eotrTgi.mspriengfr
+amework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+01/07/2026 12:06:22 [err] 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+01/07/2026 12:06:22 [err] 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+01/07/2026 12:06:22 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+01/07/2026 12:06:22 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+01/07/2026 12:06:22 [err] 	at com.datasel.avicenna.util.ContextUtils.getContext(ContextUtils.java:16)
+01/07/2026 12:06:22 [err] 	at com.datasel.avicenna.mainboard.configuration.ACRunnerSessionConfiguration.run(ACRunnerSessionConfiguration.java:47)
+01/07/2026 12:06:22 [out] ma01/07/2026 12:06:22 [err] na	gaetr java.lang.T:com.dahtraesaedl..rauvni(cTenna.sehc.rsehaarde.dj.aIvSae:c7M4e8n)u m
+ethodName:g01/07/2026 12:06:22 [err] etCDaautsaebda sbeyN:a moerg
+.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:553)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1095)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:277)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+01/07/2026 12:06:22 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+01/07/2026 12:06:22 [err] 	... 17 more
+01/07/2026 12:06:22 [out] Dialog class name:com.datasel.avicenna.client.wizard.WizardDialog
+01/07/2026 12:06:22 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:06:22 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:06:56 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:logonAvicenna
+01/07/2026 12:06:56 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaff
+01/07/2026 12:06:56 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:checkServerSession
+01/07/2026 12:06:56 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+01/07/2026 12:06:56 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:getMenusOfUser
+01/07/2026 12:06:56 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getUserPermissions
+01/07/2026 12:07:00 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganization
+01/07/2026 12:07:00 [out] manager:com.datasel.avicenna.hdm.shared.IHdmSection methodName:getSection
+01/07/2026 12:07:00 [out] manager:com.datasel.avicenna.component.shared.IACComponent methodName:getTableLayouts
+01/07/2026 12:07:00 [out]  AuthId :1101018100069 FiscalYear :? Section :1001000431313 Organization :1001000431639 Name :906299359 FullName :ãÍãÏ ãÍãæÏ ÍÌ ÍãÏ StaffId :1101018100001 Language :en
+01/07/2026 12:07:00 [out] certificate path:C:\avicennanew/jssecacerts
+01/07/2026 12:07:00 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : GSSTESISKODU Section:1001000431313 Answer:(11060002)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : GSSUSERNAME Section:1001000431313 Answer:(11060002)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : GSSPASSWORD Section:1001000431313 Answer:(99667679)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : MERNISUSERID Section:1001000431313 Answer:(1)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : MERNISPASSWORD Section:1001000431313 Answer:(1)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : KIZILAYUSERNAME Section:1001000431313 Answer:(0)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : KIZILAYPASSWORD Section:1001000431313 Answer:(0)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : CKYSUSERNAME Section:1001000431313 Answer:(datasel)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : CKYSPASSWORD Section:1001000431313 Answer:(datasel2342)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : EHEALTHKURUMKODU Section:1001000431313 Answer:(318591)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : CGMUSERNAME Section:1001000431313 Answer:(111)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : CGMPASSWORD Section:1001000431313 Answer:(111)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : CGMUSERNAMEFORIS Section:1001000431313 Answer:(0)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : CGMPASSWORDFORIS Section:1001000431313 Answer:(0)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : EINVUSERNAME Section:1001000431313 Answer:(0)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : EINVPASSWORD Section:1001000431313 Answer:(0)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : EINVINSTITUTION Section:1001000431313 Answer:(0)
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmFiscalYear methodName:getSelectableFiscalYears
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+01/07/2026 12:07:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:01 [out] Parameter Cache Put : AVCMAILREFRESHDELAY Section:1001000431313 Answer:(2)
+01/07/2026 12:07:02 [out] manager:com.datasel.avicenna.sec.shared.ISecGrant methodName:isCodeValueCodeGrantedForUser
+01/07/2026 12:07:02 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:02 [out] Parameter Cache Put : ACLOGOUTTIME Section:1001000431313 Answer:(30)
+01/07/2026 12:07:02 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+01/07/2026 12:07:09 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:07:09 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryGroupsWithoutDetail
+01/07/2026 12:07:09 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getQuestionairesByTypeAndStaff
+01/07/2026 12:07:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getPreviousQuestionaires
+01/07/2026 12:07:09 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:09 [out] Parameter Cache Put : VENTURAEXISTS Section:1001000431313 Answer:(0)
+01/07/2026 12:07:09 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryGroupsWithoutDetail
+01/07/2026 12:07:10 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getQuestionairesByTypeAndStaff
+01/07/2026 12:07:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getPreviousQuestionaires
+01/07/2026 12:07:10 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:10 [out] Parameter Cache Put : MRSEPISODETABORDER Section:1001000431313 Answer:(1)
+01/07/2026 12:07:10 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:07:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:07:31 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:31 [out] Parameter Cache Put : RMSTYPE Section:1001000431313 Answer:(2)
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:31 [out] Parameter Cache Put : USBSEXISTS Section:1001000431313 Answer:(0)
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:31 [out] Parameter Cache Put : MRSICDDIAGNOSISFINALTYPE Section:1001000431313 Answer:(1)
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:31 [out] Parameter Cache Put : OCCPDISEASEWARNINGEXISTS Section:1001000431313 Answer:(0)
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:31 [out] Parameter Cache Put : DRGRESTRICTIONFORICDSTARTSWITHRU Section:1001000431313 Answer:(0)
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+01/07/2026 12:07:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:32 [out] Parameter Cache Put : HOSPITALTYPE Section:1001000431313 Answer:(2)
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:32 [out] Parameter Cache Put : PROVISIONALANDDIVIDEINVOICES_ISENABLE Section:1001000431313 Answer:(0)
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:32 [out] Parameter Cache Put : MEDULAUSED Section:1001000431313 Answer:(0)
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:32 [out] Parameter Cache Put : MRSDIAGNOSISMANDATORY Section:1001000431313 Answer:(0)
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+01/07/2026 12:07:32 [out] Parameter Cache Put : ALL_WOMANPOLICLINIC Section:1001000431313 AnswerTree
+01/07/2026 12:07:32 [out]   Answer Key:(WOAMANPOLICLINIC_8) Value:(1101002235147)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_1) Value:(1101000444690)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_10) Value:(1101002177297)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_11) Value:(null)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_12) Value:(1101014534837)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_3) Value:(1101002045395)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_4) Value:(1101002024035)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_5) Value:(1101002024042)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_6) Value:(1101002045449)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_7) Value:(1101002027894)
+01/07/2026 12:07:32 [out]   Answer Key:(WOMANPOLICLINIC_9) Value:(1101002235143)
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:32 [out] Parameter Cache Put : FDSXEXISTS Section:1001000431313 Answer:(0)
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:32 [out] Parameter Cache Put : HDMINITIALASSESSMENTCANBEOPENEDBYBUTTON Section:1001000431313 Answer:(1)
+01/07/2026 12:07:32 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:07:32 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:getRequestByRequestorOrderIdNew
+01/07/2026 12:07:33 [err] QMATICDEVICEID does not present in session
+01/07/2026 12:07:33 [err] Qmatic device is not available! null
+01/07/2026 12:07:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:35 [out] Parameter Cache Put : MHRSEXISTS Section:1001000431313 Answer:(0)
+01/07/2026 12:07:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:35 [out] Parameter Cache Put : OBSERVATIONFORDOCTOREXISTS Section:1001000431313 Answer:(1)
+01/07/2026 12:07:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:35 [out] Parameter Cache Put : RSSAPPOINTMENTTYPE_PTS Section:1001000431313 Answer:(1101002050214)
+01/07/2026 12:07:37 [err] LcdDisplay is not available. Connection refused: connect
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:37 [out] Parameter Cache Put : PATIENTNAMEFORMAT Section:1001000431313 Answer:(1)
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+01/07/2026 12:07:37 [out] Parameter Cache Put : ALL_EMERGENCYSERVICEID Section:1001000431313 AnswerTree
+01/07/2026 12:07:37 [out]   Answer Key:(EMERGENCYID1) Value:(0)
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:37 [out] Parameter Cache Put : OPMDEFAULTPATIENTLISTIDFORDOCTOR Section:1001000431313 Answer:(1101001788696)
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeValue
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+01/07/2026 12:07:37 [out] Parameter Cache Put : ALL_CHIEFPOLICLINIC Section:1001000431313 AnswerTree
+01/07/2026 12:07:37 [out]   Answer Key:(CHIEF_POLICLINIC_1) Value:(null)
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.rss.shared.IRssAppointment methodName:getQuotaList
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:37 [out] Parameter Cache Put : OPMAUTOMATICREFRESHTIME Section:1001000431313 Answer:(6)
+01/07/2026 12:07:37 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:07:38 [out] Parameter Cache Put : RSSAPPOINTMENTTYPE_CONS Section:1001000431313 Answer:(9)
+01/07/2026 12:07:38 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:38 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryGroupsWithoutDetail
+01/07/2026 12:07:38 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:07:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getQuestionairesByTypeAndStaff
+01/07/2026 12:07:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getPreviousQuestionaires
+01/07/2026 12:07:38 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:09:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:11:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:13:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:13:38 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+01/07/2026 12:13:38 [out] manager:com.datasel.avicenna.rss.shared.IRssAppointment methodName:getQuotaList
+01/07/2026 12:13:38 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:13:38 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:15:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:17:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:19:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:19:38 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+01/07/2026 12:19:38 [out] manager:com.datasel.avicenna.rss.shared.IRssAppointment methodName:getQuotaList
+01/07/2026 12:19:39 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:19:39 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:21:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:21:59 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientByNo
+01/07/2026 12:21:59 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+01/07/2026 12:21:59 [out] Dialog class name:com.datasel.avicenna.bar.admission.client.BarOrderSelectionDialog
+01/07/2026 12:21:59 [err] java.lang.NullPointerException
+01/07/2026 12:21:59 [err] 	at com.datasel.avicenna.qmatic.ACQmaticManager.dispose(ACQmaticManager.java:71)
+01/07/2026 12:21:59 [err] 	at com.datasel.avicenna.qmatic.ACQmaticManager.finalize(ACQmaticManager.java:58)
+01/07/2026 12:21:59 [err] 	at java.lang.System$2.invokeFinalize(System.java:1270)
+01/07/2026 12:21:59 [err] 	at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:102)
+01/07/2026 12:21:59 [err] 	at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+01/07/2026 12:21:59 [out] 01/07/2026 12:21:59 [err] ma	naatg ejra:vcao.ml.adnagt.arsefe.lF.ianvailcieznenra$.Fbianra.laidzmeirsTshiroena.ds.hraurne(dF.iInBaalriAzdemri.sjsaivoan: 2m1e7t)ho
+dName:getPatientAllAdmission
+01/07/2026 12:21:59 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:21:59 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:22:01 [out] manager:com.datasel.avicenna.opm.order.shared.IOpmOrder methodName:getOpmOrderWithOrganizationIdDateAndDoctorId
+01/07/2026 12:22:01 [out] manager:com.datasel.avicenna.opm.order.shared.IOpmOrder methodName:getOpmOrderPatient
+01/07/2026 12:22:01 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getOpenAdmissions
+01/07/2026 12:22:01 [out] Parameter Cache Clear : 15 minutes
+01/07/2026 12:22:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+01/07/2026 12:22:01 [out] Parameter Cache Put : ALL_MRSICDONKPRO Section:1001000431313 AnswerTree
+01/07/2026 12:22:01 [out]   Answer Key:(ICD Ten geçerlimi?) Value:(0)
+01/07/2026 12:22:01 [out]   Answer Key:(ICD10VALID) Value:(MRSICDTENDEFINITION)
+01/07/2026 12:22:01 [out]   Answer Key:(ONCOLOGYVALID) Value:(MRSICDONKDEFINITION)
+01/07/2026 12:22:01 [out]   Answer Key:(Onkoloji icd leri geçerli mi ?) Value:(0)
+01/07/2026 12:22:01 [out]   Answer Key:(PROCEDUREVALID) Value:(MRSICDTENPROCEDURES)
+01/07/2026 12:22:01 [out]   Answer Key:(Prosedür geçerlimi ?) Value:(0)
+01/07/2026 12:22:01 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+01/07/2026 12:22:01 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:22:01 [out] Parameter Cache Put : PATIENTNAMEFORMAT Section:1001000431313 Answer:(1)
+01/07/2026 12:22:04 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryGroupsWithoutDetail
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getQuestionairesByTypeAndStaff
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getPreviousQuestionaires
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:22:04 [out] Parameter Cache Put : VENTURAEXISTS Section:1001000431313 Answer:(0)
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryGroupsWithoutDetail
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getQuestionairesByTypeAndStaff
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getPreviousQuestionaires
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:22:04 [out] Parameter Cache Put : MRSEPISODETABORDER Section:1001000431313 Answer:(1)
+01/07/2026 12:22:04 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:checkpatientsecurity
+01/07/2026 12:22:04 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientContactsByPatientId
+01/07/2026 12:22:05 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:tabControl
+01/07/2026 12:22:08 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:22:08 [out] Parameter Cache Put : MRSEPISODEUSESNEWORDERSCRN Section:1001000431313 Answer:(0)
+01/07/2026 12:22:08 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:22:08 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getOrderInformation
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.sec.shared.ISecGrant methodName:getUsersAuthorizationMap
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.sec.shared.ISecGrant methodName:getAllAuthorizations
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+01/07/2026 12:22:09 [out] Parameter Cache Put : ALL_BLOODBANKHEMATOLOGY Section:1001000431313 AnswerTree
+01/07/2026 12:22:09 [out]   Answer Key:(BLOODBANKHEMATOLOGYORG) Value:(1001000431644)
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:22:09 [out] Parameter Cache Put : HOSPITALNAME Section:1001000431313 Answer:(RAK)
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:22:09 [out] Parameter Cache Put : LABDISPLAYTECHAPPROVEDRESULTS Section:1001000431313 Answer:(1)
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:22:09 [out] Parameter Cache Put : PTLSIGNERSCANBESEENFROMEPISODE Section:1001000431313 Answer:(1)
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:22:09 [out] Parameter Cache Put : BBMCOMPANYIDINPRODUCTNO Section:1001000431313 Answer:(1)
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.dms.shared.dm.IDmsDm methodName:getPermissionDefinitions
+01/07/2026 12:22:09 [out] manager:com.datasel.avicenna.sec.shared.ISecRole methodName:getRoles
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.dms.shared.dm.IDmsDm methodName:getDmFolderByName
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.bar.codebase.shared.IBarElectronicReferral methodName:getOnlyReferralByPatientId
+01/07/2026 12:22:10 [out] Patientid is null
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getRefusedOrders
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getOrderInformation
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryByPatientId
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getMedicalRegistryGroupsWithoutDetail
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getAdministrativeRegByPatientId
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getQuestionairesByTypeAndStaff
+01/07/2026 12:22:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmQuestion methodName:getPreviousQuestionaires
+01/07/2026 12:23:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:25:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:25:39 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+01/07/2026 12:25:39 [out] Parameter Cache Put : ALL_CHIEFPOLICLINIC Section:1001000431313 AnswerTree
+01/07/2026 12:25:39 [out]   Answer Key:(CHIEF_POLICLINIC_1) Value:(null)
+01/07/2026 12:25:39 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+01/07/2026 12:25:39 [out] manager:com.datasel.avicenna.rss.shared.IRssAppointment methodName:getQuotaList
+01/07/2026 12:25:39 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:25:39 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:25:50 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getApmInformation
+01/07/2026 12:26:32 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:26:32 [out] manager:com.datasel.avicenna.apm.shared.IApm methodName:getPatientFormEntry
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] {}
+01/07/2026 12:26:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:26:33 [out] manager:com.datasel.avicenna.hdm.rpt.shared.IHdmRptReportHeader methodName:getRptReportHeader
+01/07/2026 12:27:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:27:28 [out] manager:com.datasel.avicenna.rpt.shared.IRptReport methodName:printCountLogToTable
+01/07/2026 12:27:37 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:27:37 [out] manager:com.datasel.avicenna.apm.shared.IApm methodName:getPatientFormEntry
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] {}
+01/07/2026 12:27:38 [out] manager:com.datasel.avicenna.hdm.rpt.shared.IHdmRptReportHeader methodName:getRptReportHeader
+01/07/2026 12:28:05 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:28:05 [out] manager:com.datasel.avicenna.apm.shared.IApm methodName:getPatientFormEntry
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] {}
+01/07/2026 12:28:06 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:06 [out] manager:com.datasel.avicenna.hdm.rpt.shared.IHdmRptReportHeader methodName:getRptReportHeader
+01/07/2026 12:28:28 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:28:28 [out] manager:com.datasel.avicenna.apm.shared.IApm methodName:getPatientFormEntry
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] {}
+01/07/2026 12:28:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:33 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:35 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:36 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:39 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:41 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:43 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:28:44 [out] manager:com.datasel.avicenna.hdm.rpt.shared.IHdmRptReportHeader methodName:getRptReportHeader
+01/07/2026 12:29:08 [out] manager:com.datasel.avicenna.rpt.shared.IRptReport methodName:printCountLogToTable
+01/07/2026 12:29:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:29:25 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:29:25 [out] manager:com.datasel.avicenna.apm.shared.IApm methodName:getPatientFormEntry
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] {}
+01/07/2026 12:29:25 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:searchGenericByGenericInfo
+01/07/2026 12:29:25 [out] manager:com.datasel.avicenna.hdm.rpt.shared.IHdmRptReportHeader methodName:getRptReportHeader
+01/07/2026 12:30:09 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getReportInformation
+01/07/2026 12:30:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:30:10 [out] Parameter Cache Put : HDMUNAPPROVEDRPTDISPFORRAD Section:1001000431313 Answer:(0)
+01/07/2026 12:30:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:30:10 [out] Parameter Cache Put : HDMUNAPPROVEDRPTDISPFORPTL Section:1001000431313 Answer:(0)
+01/07/2026 12:30:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:30:10 [out] Parameter Cache Put : HDMUNAPPROVEDRPTDISPFORLAB Section:1001000431313 Answer:(0)
+01/07/2026 12:30:10 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getReportInformation
+01/07/2026 12:30:19 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:30:19 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getLabInformationFromOwnLaboratoryByPatientnoOrAdmissionId
+01/07/2026 12:30:21 [out] manager:com.datasel.avicenna.mrs.shared.IMrsLabMatrix methodName:getPatientsLabResultsMatrix
+01/07/2026 12:30:22 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:30:24 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getPtlInformation
+01/07/2026 12:30:37 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:30:37 [out] manager:com.datasel.avicenna.ptl.shared.IPtlResult methodName:getResultWithId
+01/07/2026 12:30:38 [out] manager:com.datasel.avicenna.rpt.shared.IRptMedicalReport methodName:getAllMedicalReportByModuleIdAndModuleFilled
+01/07/2026 12:30:38 [out] Dialog class name:com.datasel.avicenna.rpt.client.RptReportSelectionDialog
+01/07/2026 12:30:38 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:30:38 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:30:40 [out] Parameter Cache Put : PTLREPORTPRINTFROMEPISODE Section:1001000431313 Answer:(1)
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientNationalityById
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPassportByPatientId
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPhonesByPatientId
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.rpt.shared.IRptReportDefinition methodName:runObjectReport
+01/07/2026 12:30:40 [out] Forwarded method : com.datasel.avicenna.rpt.shared.IRptReportDefinition runObjectReport
+01/07/2026 12:30:40 [out] ----------->selected app server address: http://10.222.3.43:1980/
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+01/07/2026 12:30:40 [out] Parameter Cache Put : MAILBUTTONEXISTS Section:1001000431313 Answer:(0)
+01/07/2026 12:30:40 [out] Dialog class name:com.datasel.avicenna.client.DialogGenerator
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:30:40 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+01/07/2026 12:31:21 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+01/07/2026 12:31:39 [out] manager:com.datasel.avicenna.rss.shared.IRssAppointment methodName:getQuotaList
+01/07/2026 12:31:39 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:31:39 [out] manager:com.datasel.avicenna.rms.server.shared.IRmsRequest methodName:countConsOrganizationRequests
+01/07/2026 12:32:47 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getReportInformation
+01/07/2026 12:32:47 [out] manager:com.datasel.avicenna.mrs.shared.IMrsPatientEpisode methodName:getReportInformation
+01/07/2026 12:32:48 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:32:48 [out] manager:com.datasel.avicenna.rpt.shared.IRptMedicalReport methodName:getMedicalReportFilled
+01/07/2026 12:32:48 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:getOrderById
+01/07/2026 12:32:48 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getAddressByPatientId
+01/07/2026 12:32:48 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientNationalityById
+01/07/2026 12:32:48 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPassportByPatientId
+01/07/2026 12:32:48 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPhonesByPatientId
+01/07/2026 12:32:48 [out] manager:com.datasel.avicenna.rpt.shared.IRptReportDefinition methodName:getReportByCode
+01/07/2026 12:32:48 [out] Forwarded method : com.datasel.avicenna.rpt.shared.IRptReportDefinition getReportByCode
+01/07/2026 12:32:48 [out] manager:com.datasel.avicenna.rpt.shared.IRptReportDefinition methodName:runObjectReport
+01/07/2026 12:32:48 [out] Forwarded method : com.datasel.avicenna.rpt.shared.IRptReportDefinition runObjectReport
+01/07/2026 12:32:58 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+01/07/2026 12:32:58 [out] manager:com.datasel.avicenna.rpt.shared.IRptMedicalReport methodName:getMedicalReportFilled
+01/07/2026 12:32:58 [out] manager:com.datasel.avicenna.ptl.shared.IPtlResult methodName:getResultWithId
+01/07/2026 12:32:58 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientNationalityById
+01/07/2026 12:32:58 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPassportByPatientId
+01/07/2026 12:32:58 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPhonesByPatientId
+01/07/2026 12:32:58 [out] manager:com.datasel.avicenna.rpt.shared.IRptReportDefinition methodName:getReportByCode
+01/07/2026 12:32:58 [out] Forwarded method : com.datasel.avicenna.rpt.shared.IRptReportDefinition getReportByCode
+01/07/2026 12:32:58 [out] manager:com.datasel.avicenna.rpt.shared.IRptReportDefinition methodName:runObjectReport
+01/07/2026 12:32:58 [out] Forwarded method : com.datasel.avicenna.rpt.shared.IRptReportDefinition runObjectReport
+01/07/2026 12:33:13 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+01/07/2026 12:33:14 [out] *** failed locating resource: com/datasel/avicenna/rss/core/icons//out-of-office-48.png

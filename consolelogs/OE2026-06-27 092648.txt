@@ -1,0 +1,482 @@
+27/06/2026 09:26:50 [err] Excep27/06/2026 09:26:50 [out] tionm in thread "Thread-5" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'barOdemeSoarguGonderilenlerModenal' defined in URL ger:com.datase[l.avicenna.client.util.IServerDate methodName:getTimeZone
+jar:file:/C:/avicennanew/jars/client/GSS_DSL.jar!/META-INF/module-context.xml]: Cannot resolve reference to bean 'osOdemesorgugirisdvoDAO' while setting bean property 'odemesorgugirisdvoDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+27/06/2026 09:26:50 [err] 	a27/06/2026 09:26:50 [out] -----t o------>selectedr app g.sseprrvienrg fardadmeworkr.beesasn:s .hftatcpt:o/r/1y0..2s22u.p3p.o1r8t:.1A98b0s/tr
+actAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.27/06/2026 09:26:50 [out] AEbasstterrna ctBeEanuFraocpteorayn. gTeitmBeea
+n(Abstra27/06/2026 09:26:50 [out] cmtaBneaagneFra:ccotmo.rdya.tjaasveal:.1a9v3i)ce
+nna27/06/2026 09:26:50 [err] .c	laite notr.g.ustpirli.nIgSferravmeerwDoartke. bmeeatnhso.dfNaacmteo:rgye.tsTuipmpeort
+.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+27/06/2026 09:26:50 [err] 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+27/06/2026 09:26:50 [err] 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+27/06/2026 09:26:50 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+27/06/2026 09:26:50 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+27/06/2026 09:26:50 [err] 	at com.datasel.avicenna.util.ContextUtils.getContext(ContextUtils.java:16)
+27/06/2026 09:26:50 [err] 	at com.datasel.avicenna.mainboard.configuration.ACRunnerSessionConfiguration.run(ACRunnerSessionConfiguration.java:47)
+27/06/2026 09:26:50 [err] 	at java.lang.Thread.run(Thread.java:748)
+27/06/2026 09:26:50 [err] Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.jav27/06/2026 09:26:50 [out] am:a5n5a3g)er:
+com.27/06/2026 09:26:50 [err] da	taat soerlg..asvpicreninnag.fsreacm.eswhoarrke.db.eIaSnesc.Mfeancut omreyt.hsoudpNpaomret:.gAebtsDtartaacbtaBseeaNnaFmaecto
+ry.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1095)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:277)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+27/06/2026 09:26:50 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+27/06/2026 09:26:50 [err] 	... 17 more
+27/06/2026 09:26:50 [out] Dialog class name:com.datasel.avicenna.client.wizard.WizardDialog
+27/06/2026 09:26:50 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:26:50 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:27:34 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:logonAvicenna
+27/06/2026 09:27:34 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaff
+27/06/2026 09:27:34 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:checkServerSession
+27/06/2026 09:27:34 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+27/06/2026 09:27:34 [out] manager:com.datasel.avicenna.sec.shared.ISecLogon methodName:getMenusOfUser
+27/06/2026 09:27:34 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getUserPermissions
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganization
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmSection methodName:getSection
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.component.shared.IACComponent methodName:getTableLayouts
+27/06/2026 09:27:38 [out]  AuthId :1000051001012 FiscalYear :? Section :1001000431313 Organization :1001000431634 Name :88837 FullName :ÑãÇÁ ÚÒÇã ÌáÇÏ StaffId :1101001788953 Language :en
+27/06/2026 09:27:38 [out] certificate path:C:\avicennanew/jssecacerts
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : GSSTESISKODU Section:1001000431313 Answer:(11060002)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : GSSUSERNAME Section:1001000431313 Answer:(11060002)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : GSSPASSWORD Section:1001000431313 Answer:(99667679)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : MERNISUSERID Section:1001000431313 Answer:(1)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : MERNISPASSWORD Section:1001000431313 Answer:(1)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : KIZILAYUSERNAME Section:1001000431313 Answer:(0)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : KIZILAYPASSWORD Section:1001000431313 Answer:(0)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : CKYSUSERNAME Section:1001000431313 Answer:(datasel)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : CKYSPASSWORD Section:1001000431313 Answer:(datasel2342)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : EHEALTHKURUMKODU Section:1001000431313 Answer:(318591)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : CGMUSERNAME Section:1001000431313 Answer:(111)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : CGMPASSWORD Section:1001000431313 Answer:(111)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : CGMUSERNAMEFORIS Section:1001000431313 Answer:(0)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : CGMPASSWORDFORIS Section:1001000431313 Answer:(0)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : EINVUSERNAME Section:1001000431313 Answer:(0)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : EINVPASSWORD Section:1001000431313 Answer:(0)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:38 [out] Parameter Cache Put : EINVINSTITUTION Section:1001000431313 Answer:(0)
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmFiscalYear methodName:getSelectableFiscalYears
+27/06/2026 09:27:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+27/06/2026 09:27:39 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+27/06/2026 09:27:39 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:39 [out] Parameter Cache Put : AVCMAILREFRESHDELAY Section:1001000431313 Answer:(2)
+27/06/2026 09:27:39 [out] manager:com.datasel.avicenna.sec.shared.ISecGrant methodName:isCodeValueCodeGrantedForUser
+27/06/2026 09:27:39 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:39 [out] Parameter Cache Put : ACLOGOUTTIME Section:1001000431313 Answer:(30)
+27/06/2026 09:27:39 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getPermission
+27/06/2026 09:27:44 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : HOSPITALTYPE Section:1001000431313 Answer:(2)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : OLDPATIENTFRIENDLYFORM Section:1001000431313 Answer:(0)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : BARADMISSIONDOCTORSELECTION Section:1001000431313 Answer:(1)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : PROVISIONACTIVE Section:1001000431313 Answer:(0)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : BARMULTIADMISSION Section:1001000431313 Answer:(1)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : HOSPITAL_FINANS_ID Section:1001000431313 Answer:(1001000323820)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : BARDEFRELATIVECODE Section:1001000431313 Answer:(1001000427429)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : BARNOTINSUREDAGREEMENT Section:1001000431313 Answer:(1001000431653)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : BARINSUREDAGREEMENT Section:1001000431313 Answer:(1001000431652)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : RSSAPPOINTMENTTYPE_ORDER Section:1001000431313 Answer:(7)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:44 [out] Parameter Cache Put : ADMISSIONFRAMEDETAILTAB Section:1001000431313 Answer:(0)
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:27:44 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:27:45 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+27/06/2026 09:27:45 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:45 [out] Parameter Cache Put : ADMISSIONFRAMEBARCODE Section:1001000431313 Answer:(1)
+27/06/2026 09:27:45 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:45 [out] Parameter Cache Put : MEDULAUSED Section:1001000431313 Answer:(0)
+27/06/2026 09:27:45 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:27:45 [out] Parameter Cache Put : QUICKSPONSORFILTER Section:1001000431313 Answer:(0)
+27/06/2026 09:27:45 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:27:45 [err] dw==:IIsHq/gOTPWNiDFCGy22s+5vPBA= is not found in BarAdmissionFrameGridBag
+27/06/2026 09:27:45 [err] dw==:IIsHq/gOTPWNiDFCGy22s+5vPBA= is not found in BarAdmissionFrameGridBag
+27/06/2026 09:27:54 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientByNo
+27/06/2026 09:27:54 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+27/06/2026 09:27:55 [out] Dialog class name:com.datasel.avicenna.bar.admission.client.BarOrderSelectionDialog
+27/06/2026 09:27:55 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getOpenAdmissionList
+27/06/2026 09:27:55 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:27:55 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:27:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:28:02 [out] Dialog class name:com.datasel.avicenna.prs.client.PrsPatientCardListDialog
+27/06/2026 09:28:02 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientCard
+27/06/2026 09:28:02 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientContactsByPatientId
+27/06/2026 09:28:02 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getPatientAllAdmissionWithSectionLight
+27/06/2026 09:28:03 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+27/06/2026 09:28:03 [out] manager:com.datasel.avicenna.seha.integration.shared.ISehaIntegrationWS methodName:getWSForInsurance
+27/06/2026 09:28:03 [out] Dialog class name:com.datasel.avicenna.prs.client.PrsInsuranceInformationDialog
+27/06/2026 09:28:03 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:28:03 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:28:05 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+27/06/2026 09:28:05 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:28:05 [out] Parameter Cache Put : PATIENTNAMEFORMAT Section:1001000431313 Answer:(1)
+27/06/2026 09:28:09 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.sec.shared.ISecFeatureGrant methodName:getPermissionList
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:28:09 [out] Parameter Cache Put : USBSEXISTS Section:1001000431313 Answer:(0)
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:28:09 [out] Parameter Cache Put : MRSICDDIAGNOSISFINALTYPE Section:1001000431313 Answer:(1)
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:28:09 [out] Parameter Cache Put : OCCPDISEASEWARNINGEXISTS Section:1001000431313 Answer:(0)
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:28:09 [out] Parameter Cache Put : DRGRESTRICTIONFORICDSTARTSWITHRU Section:1001000431313 Answer:(0)
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeDefinitionByStatus
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:28:09 [out] Parameter Cache Put : IPMBRANCHOFORGANIZATIONORDOCTOR Section:1001000431313 Answer:(0)
+27/06/2026 09:28:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:28:10 [out] Parameter Cache Put : MRSDIAGNOSISMANDATORY Section:1001000431313 Answer:(0)
+27/06/2026 09:28:10 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientByNo
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:getOpenOrdersByPatientId
+27/06/2026 09:28:31 [out] Dialog class name:com.datasel.avicenna.bar.admission.client.BarOrderSelectionDialog
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getOpenAdmissionList
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkPatientInpatientStatus
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getDiagnosisByAdmissionId
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientByAdmissionid
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+27/06/2026 09:28:31 [out] Parameter Cache Put : ALL_MRSICDONKPRO Section:1001000431313 AnswerTree
+27/06/2026 09:28:31 [out]   Answer Key:(ICD Ten geçerlimi?) Value:(0)
+27/06/2026 09:28:31 [out]   Answer Key:(ICD10VALID) Value:(MRSICDTENDEFINITION)
+27/06/2026 09:28:31 [out]   Answer Key:(ONCOLOGYVALID) Value:(MRSICDONKDEFINITION)
+27/06/2026 09:28:31 [out]   Answer Key:(Onkoloji icd leri geçerli mi ?) Value:(0)
+27/06/2026 09:28:31 [out]   Answer Key:(PROCEDUREVALID) Value:(MRSICDTENPROCEDURES)
+27/06/2026 09:28:31 [out]   Answer Key:(Prosedür geçerlimi ?) Value:(0)
+27/06/2026 09:28:31 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+27/06/2026 09:28:38 [out] Dialog class name:com.datasel.avicenna.hdm.client.HdmStaffSearchAutoFilterDialog
+27/06/2026 09:28:38 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+27/06/2026 09:28:38 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaffListByCriteriaForComponents
+27/06/2026 09:28:38 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:28:38 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:29:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaff
+27/06/2026 09:29:34 [out] Dialog class name:com.datasel.avicenna.hdm.client.HdmCodeValueJideSearchDialog
+27/06/2026 09:29:34 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+27/06/2026 09:29:34 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getHdmcodevalueByCodeOrNameWithStaticCode
+27/06/2026 09:29:34 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:29:34 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:29:53 [out] Dialog class name:com.datasel.avicenna.hdm.mrs.ICDSearchDialogForGeneric
+27/06/2026 09:29:53 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IICDManager methodName:getParentIcds
+27/06/2026 09:29:53 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getDoctorsDiagnosisList
+27/06/2026 09:29:53 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IICDManager methodName:getICDFavoriteByStaff
+27/06/2026 09:29:53 [out] staff icin tanimli liste varrrrr
+27/06/2026 09:29:53 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getPatientPreviousDiagnosis
+27/06/2026 09:29:53 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:29:53 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:29:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:29:59 [err] choosePatientICDZ48.9-Surgical follow-up care, unspecified
+27/06/2026 09:29:59 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeValue
+27/06/2026 09:29:59 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:saveDiagnosis
+27/06/2026 09:29:59 [out] manager:com.datasel.avicenna.hdm.fds.codebase.shared.IHdmFdsFormResource methodName:checkForFds
+27/06/2026 09:30:04 [out] Dialog class name:com.datasel.avicenna.ipm.client.IpmBedSelectionDialog
+27/06/2026 09:30:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 09:30:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 09:30:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 09:30:04 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:getBeds
+27/06/2026 09:30:05 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:30:05 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:30:18 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:getBeds
+27/06/2026 09:30:38 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkGenderBedSchedule
+27/06/2026 09:30:38 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkRoomMedicalRegistryBedSchedule
+27/06/2026 09:30:39 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkPatientMedicalRegistryBedSchedule
+27/06/2026 09:30:39 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+27/06/2026 09:30:41 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isBedEmpty
+27/06/2026 09:30:41 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+27/06/2026 09:30:41 [out] Parameter Cache Put : ALL_IPMESTABLISHMENTCODES Section:1001000431313 AnswerTree
+27/06/2026 09:30:41 [out]   Answer Key:(IPMESTABLISHMENTEMEKLI) Value:(0)
+27/06/2026 09:30:41 [out]   Answer Key:(IPMESTABLISHMENTRESMISEVKLI) Value:(0)
+27/06/2026 09:30:41 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkIfExistsInOrderList
+27/06/2026 09:30:41 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:createIpmOrder
+27/06/2026 09:30:41 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:saveDiagnosis
+27/06/2026 09:30:41 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isNameExists
+27/06/2026 09:30:41 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+27/06/2026 09:30:43 [out] manager:com.datasel.avicenna.hdm.medical.shared.IHdmMedicalOrderNoGenerator methodName:setFormattedOrderNo
+27/06/2026 09:31:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:33:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:35:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:37:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:39:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:41:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:43:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:45:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:47:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:49:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:51:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:53:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:54:42 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientByNo
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:getOpenOrdersByPatientId
+27/06/2026 09:54:55 [out] Dialog class name:com.datasel.avicenna.bar.admission.client.BarOrderSelectionDialog
+27/06/2026 09:54:55 [out] Parameter Cache Clear : 27 minutes
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:54:55 [out] Parameter Cache Put : HOSPITALTYPE Section:1001000431313 Answer:(2)
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getOpenAdmissionList
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkPatientInpatientStatus
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getDiagnosisByAdmissionId
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientByAdmissionid
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+27/06/2026 09:54:55 [out] Parameter Cache Put : ALL_MRSICDONKPRO Section:1001000431313 AnswerTree
+27/06/2026 09:54:55 [out]   Answer Key:(ICD Ten geçerlimi?) Value:(0)
+27/06/2026 09:54:55 [out]   Answer Key:(ICD10VALID) Value:(MRSICDTENDEFINITION)
+27/06/2026 09:54:55 [out]   Answer Key:(ONCOLOGYVALID) Value:(MRSICDONKDEFINITION)
+27/06/2026 09:54:55 [out]   Answer Key:(Onkoloji icd leri geçerli mi ?) Value:(0)
+27/06/2026 09:54:55 [out]   Answer Key:(PROCEDUREVALID) Value:(MRSICDTENPROCEDURES)
+27/06/2026 09:54:55 [out]   Answer Key:(Prosedür geçerlimi ?) Value:(0)
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+27/06/2026 09:54:55 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 09:54:55 [out] Parameter Cache Put : PATIENTNAMEFORMAT Section:1001000431313 Answer:(1)
+27/06/2026 09:54:58 [out] Dialog class name:com.datasel.avicenna.hdm.client.HdmStaffSearchAutoFilterDialog
+27/06/2026 09:54:58 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+27/06/2026 09:54:58 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaffListByCriteriaForComponents
+27/06/2026 09:54:58 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:54:58 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:55:04 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaff
+27/06/2026 09:55:05 [out] Dialog class name:com.datasel.avicenna.hdm.mrs.ICDSearchDialogForGeneric
+27/06/2026 09:55:05 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IICDManager methodName:getParentIcds
+27/06/2026 09:55:05 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getDoctorsDiagnosisList
+27/06/2026 09:55:05 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IICDManager methodName:getICDFavoriteByStaff
+27/06/2026 09:55:05 [out] staff icin tanimli liste varrrrr
+27/06/2026 09:55:05 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getPatientPreviousDiagnosis
+27/06/2026 09:55:05 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:55:05 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:55:09 [err] choosePatientICDQ42.3-Congenital absence, atresia and stenosis of anus without fistula
+27/06/2026 09:55:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeValue
+27/06/2026 09:55:09 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:saveDiagnosis
+27/06/2026 09:55:09 [out] manager:com.datasel.avicenna.hdm.fds.codebase.shared.IHdmFdsFormResource methodName:checkForFds
+27/06/2026 09:55:10 [out] Dialog class name:com.datasel.avicenna.ipm.client.IpmBedSelectionDialog
+27/06/2026 09:55:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 09:55:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 09:55:10 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 09:55:10 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:getBeds
+27/06/2026 09:55:11 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:55:11 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 09:55:15 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkGenderBedSchedule
+27/06/2026 09:55:15 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+27/06/2026 09:55:17 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkRoomMedicalRegistryBedSchedule
+27/06/2026 09:55:17 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkPatientMedicalRegistryBedSchedule
+27/06/2026 09:55:17 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+27/06/2026 09:55:20 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isBedEmpty
+27/06/2026 09:55:20 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+27/06/2026 09:55:20 [out] Parameter Cache Put : ALL_IPMESTABLISHMENTCODES Section:1001000431313 AnswerTree
+27/06/2026 09:55:20 [out]   Answer Key:(IPMESTABLISHMENTEMEKLI) Value:(0)
+27/06/2026 09:55:20 [out]   Answer Key:(IPMESTABLISHMENTRESMISEVKLI) Value:(0)
+27/06/2026 09:55:20 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkIfExistsInOrderList
+27/06/2026 09:55:20 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:createIpmOrder
+27/06/2026 09:55:20 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:saveDiagnosis
+27/06/2026 09:55:20 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isNameExists
+27/06/2026 09:55:20 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+27/06/2026 09:55:22 [out] manager:com.datasel.avicenna.hdm.medical.shared.IHdmMedicalOrderNoGenerator methodName:setFormattedOrderNo
+27/06/2026 09:55:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:57:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 09:59:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:01:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:03:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:05:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:07:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:09:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:11:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:13:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:15:32 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+27/06/2026 10:15:32 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isBedEmpty
+27/06/2026 10:15:32 [out] Parameter Cache Clear : 20 minutes
+27/06/2026 10:15:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+27/06/2026 10:15:32 [out] Parameter Cache Put : ALL_MRSICDONKPRO Section:1001000431313 AnswerTree
+27/06/2026 10:15:32 [out]   Answer Key:(ICD Ten geçerlimi?) Value:(0)
+27/06/2026 10:15:32 [out]   Answer Key:(ICD10VALID) Value:(MRSICDTENDEFINITION)
+27/06/2026 10:15:32 [out]   Answer Key:(ONCOLOGYVALID) Value:(MRSICDONKDEFINITION)
+27/06/2026 10:15:32 [out]   Answer Key:(Onkoloji icd leri geçerli mi ?) Value:(0)
+27/06/2026 10:15:32 [out]   Answer Key:(PROCEDUREVALID) Value:(MRSICDTENPROCEDURES)
+27/06/2026 10:15:32 [out]   Answer Key:(Prosedür geçerlimi ?) Value:(0)
+27/06/2026 10:15:32 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+27/06/2026 10:15:32 [out] Parameter Cache Put : ALL_IPMESTABLISHMENTCODES Section:1001000431313 AnswerTree
+27/06/2026 10:15:32 [out]   Answer Key:(IPMESTABLISHMENTEMEKLI) Value:(0)
+27/06/2026 10:15:32 [out]   Answer Key:(IPMESTABLISHMENTRESMISEVKLI) Value:(0)
+27/06/2026 10:15:32 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkIfExistsInOrderList
+27/06/2026 10:15:32 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isOrderDischarged
+27/06/2026 10:15:32 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isOrderTransferred
+27/06/2026 10:15:33 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:createIpmOrder
+27/06/2026 10:15:33 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:saveDiagnosis
+27/06/2026 10:15:33 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isNameExists
+27/06/2026 10:15:33 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+27/06/2026 10:15:36 [out] manager:com.datasel.avicenna.hdm.medical.shared.IHdmMedicalOrderNoGenerator methodName:setFormattedOrderNo
+27/06/2026 10:15:51 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isBedEmpty
+27/06/2026 10:15:52 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkIfExistsInOrderList
+27/06/2026 10:15:52 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isOrderDischarged
+27/06/2026 10:15:53 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isOrderTransferred
+27/06/2026 10:15:53 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:createIpmOrder
+27/06/2026 10:15:53 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:saveDiagnosis
+27/06/2026 10:15:53 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isNameExists
+27/06/2026 10:15:54 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+27/06/2026 10:15:56 [out] manager:com.datasel.avicenna.hdm.medical.shared.IHdmMedicalOrderNoGenerator methodName:setFormattedOrderNo
+27/06/2026 10:15:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:17:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:19:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:21:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:23:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:25:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:27:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:29:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:31:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:33:24 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientByNo
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:getOpenOrdersByPatientId
+27/06/2026 10:33:36 [out] Dialog class name:com.datasel.avicenna.bar.admission.client.BarOrderSelectionDialog
+27/06/2026 10:33:36 [out] Parameter Cache Clear : 18 minutes
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 10:33:36 [out] Parameter Cache Put : HOSPITALTYPE Section:1001000431313 Answer:(2)
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getOpenAdmissionList
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkPatientInpatientStatus
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getDiagnosisByAdmissionId
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.prs.shared.IPrsPatient methodName:getPatientByAdmissionid
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+27/06/2026 10:33:36 [out] Parameter Cache Put : ALL_MRSICDONKPRO Section:1001000431313 AnswerTree
+27/06/2026 10:33:36 [out]   Answer Key:(ICD Ten geçerlimi?) Value:(0)
+27/06/2026 10:33:36 [out]   Answer Key:(ICD10VALID) Value:(MRSICDTENDEFINITION)
+27/06/2026 10:33:36 [out]   Answer Key:(ONCOLOGYVALID) Value:(MRSICDONKDEFINITION)
+27/06/2026 10:33:36 [out]   Answer Key:(Onkoloji icd leri geçerli mi ?) Value:(0)
+27/06/2026 10:33:36 [out]   Answer Key:(PROCEDUREVALID) Value:(MRSICDTENPROCEDURES)
+27/06/2026 10:33:36 [out]   Answer Key:(Prosedür geçerlimi ?) Value:(0)
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.bar.admission.shared.IBarAdmission methodName:getAdmissionCountByPatientId
+27/06/2026 10:33:36 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAnswerString
+27/06/2026 10:33:36 [out] Parameter Cache Put : PATIENTNAMEFORMAT Section:1001000431313 Answer:(1)
+27/06/2026 10:33:41 [out] Dialog class name:com.datasel.avicenna.hdm.client.HdmStaffSearchAutoFilterDialog
+27/06/2026 10:33:41 [out] Dialog class name:com.datasel.avicenna.client.ACProgressDialog
+27/06/2026 10:33:41 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaffListByCriteriaForComponents
+27/06/2026 10:33:41 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 10:33:41 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 10:33:52 [out] manager:com.datasel.avicenna.hdm.shared.IHdmStaff methodName:getStaff
+27/06/2026 10:33:54 [out] Dialog class name:com.datasel.avicenna.hdm.mrs.ICDSearchDialogForGeneric
+27/06/2026 10:33:54 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IICDManager methodName:getParentIcds
+27/06/2026 10:33:54 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getDoctorsDiagnosisList
+27/06/2026 10:33:54 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IICDManager methodName:getICDFavoriteByStaff
+27/06/2026 10:33:54 [out] staff icin tanimli liste varrrrr
+27/06/2026 10:33:54 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:getPatientPreviousDiagnosis
+27/06/2026 10:33:54 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 10:33:54 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 10:33:56 [err] choosePatientICDZ93.3-Colostomy status
+27/06/2026 10:33:56 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCode methodName:getCodeValue
+27/06/2026 10:33:56 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:saveDiagnosis
+27/06/2026 10:33:56 [out] manager:com.datasel.avicenna.hdm.fds.codebase.shared.IHdmFdsFormResource methodName:checkForFds
+27/06/2026 10:33:58 [out] Dialog class name:com.datasel.avicenna.ipm.client.IpmBedSelectionDialog
+27/06/2026 10:33:58 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 10:33:58 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 10:33:58 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationListByCriteriaForComponents
+27/06/2026 10:33:58 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:getBeds
+27/06/2026 10:33:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:33:59 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 10:33:59 [out] manager:com.datasel.avicenna.core.sec.IComponentPropertiesGetter methodName:getPropertiesList
+27/06/2026 10:34:05 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkGenderBedSchedule
+27/06/2026 10:34:06 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+27/06/2026 10:34:07 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkRoomMedicalRegistryBedSchedule
+27/06/2026 10:34:07 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkPatientMedicalRegistryBedSchedule
+27/06/2026 10:34:07 [out] manager:com.datasel.avicenna.hdm.shared.IHdmOrganization methodName:getOrganizationBase
+27/06/2026 10:34:09 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isBedEmpty
+27/06/2026 10:34:09 [out] manager:com.datasel.avicenna.hdm.shared.IHdmCodeParameter methodName:getAllCodeParameterAnswers
+27/06/2026 10:34:09 [out] Parameter Cache Put : ALL_IPMESTABLISHMENTCODES Section:1001000431313 AnswerTree
+27/06/2026 10:34:09 [out]   Answer Key:(IPMESTABLISHMENTEMEKLI) Value:(0)
+27/06/2026 10:34:09 [out]   Answer Key:(IPMESTABLISHMENTRESMISEVKLI) Value:(0)
+27/06/2026 10:34:09 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:checkIfExistsInOrderList
+27/06/2026 10:34:09 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:createIpmOrder
+27/06/2026 10:34:10 [out] manager:com.datasel.avicenna.hdm.mrs.shared.IMrsDiagnosis methodName:saveDiagnosis
+27/06/2026 10:34:10 [out] manager:com.datasel.avicenna.ipm.shared.IIpmOrder methodName:isNameExists
+27/06/2026 10:34:10 [out] Dialog class name:com.datasel.avicenna.client.ACMessageDialog
+27/06/2026 10:34:12 [out] manager:com.datasel.avicenna.hdm.medical.shared.IHdmMedicalOrderNoGenerator methodName:setFormattedOrderNo
+27/06/2026 10:35:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:37:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:39:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:41:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:43:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:45:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:47:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:49:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:51:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:53:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:55:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:57:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 10:59:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:01:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:03:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:05:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:07:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:09:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:11:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:13:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:15:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:17:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:19:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:21:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:23:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:25:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:27:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:29:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:31:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:33:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:35:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:37:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:39:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:41:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:43:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:45:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:47:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:49:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:51:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:53:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:55:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:57:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 11:59:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 12:01:59 [out] manager:com.datasel.avicenna.mail.shared.IMsgMessanger methodName:getMessages
+27/06/2026 12:03:08 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getCalendar
+27/06/2026 12:03:08 [out] time:5336000 logoutParam:1800000
+27/06/2026 12:03:08 [out] showSession
+27/06/2026 12:03:08 [out] startSessionTransaction Auth: AuthId :1000051001012 FiscalYear :2026:106 Section :1001000431313 Organization :1001000431634 Name :88837 FullName :ÑãÇÁ ÚÒÇã ÌáÇÏ StaffId :1101001788953 Language :en
+27/06/2026 12:03:08 [out] startSessionTransaction ORGANIZATION getHdmorganizationid:H1-PEDWRD ÞÓã ÇáÃØÝÇá (ã.ÑÝíÏíÇ) 1001000431634
+27/06/2026 12:03:08 [out] startSessionTransaction USER getSecuserid:1000051001012
+27/06/2026 12:03:08 [out] startSessionTransaction STAFF getHdmstaffid:1101001788953
+27/06/2026 12:03:08 [out] startSessionTransaction DOCTOR getHdmstaffid:null
+27/06/2026 12:03:08 [out] manager:com.datasel.avicenna.client.util.IServerDate methodName:getTime
+27/06/2026 12:03:08 [out] Dialog class name:com.datasel.avicenna.login.ACLogonDialog
+27/06/2026 12:03:08 [out] ACLogon.ServerDate:2026-06-27 12:08:19.0

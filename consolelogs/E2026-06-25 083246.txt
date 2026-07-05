@@ -1,0 +1,254 @@
+25/06/2026 08:32:48 [err] Exception in thread "Thread-5" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'barOdemeSorguGonderilenlerModel' defined in URL [jar:file:/C:/avicennanew/jars/client/GSS_DSL.jar!/META-INF/module-context.xml]: Cannot resolve reference to bean 'osOdemesorgugirisdvoDAO' while setting bean property 'odemesorgugirisdvoDAO'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:328)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1360)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1118)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+25/06/2026 08:32:48 [err] 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+25/06/2026 08:32:48 [err] 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+25/06/2026 08:32:48 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+25/06/2026 08:32:48 [err] 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+25/06/2026 08:32:48 [err] 	at com.datasel.avicenna.util.ContextUtils.getContext(ContextUtils.java:16)
+25/06/2026 08:32:48 [err] 	at com.datasel.avicenna.mainboard.configuration.ACRunnerSessionConfiguration.run(ACRunnerSessionConfiguration.java:47)
+25/06/2026 08:32:48 [err] 	at java.lang.Thread.run(Thread.java:748)
+25/06/2026 08:32:48 [err] Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'osOdemesorgugirisdvoDAO' is defined
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:553)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1095)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:277)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+25/06/2026 08:32:48 [err] 	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+25/06/2026 08:32:48 [err] 	... 17 more
+25/06/2026 08:34:19 [err] ACServerException level:Error code:EXP_INCORRECT_PASSWORD causeMessage:null parameters.length:0
+25/06/2026 08:34:19 [err] 	at com.datasel.avicenna.sec.server.SecLogonManager.logonAvicenna(SecLogonManager.java:264)
+25/06/2026 08:34:19 [err] 	at sun.reflect.GeneratedMethodAccessor5093.invoke(Unknown Source)
+25/06/2026 08:34:19 [err] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+25/06/2026 08:34:19 [err] 	at java.lang.reflect.Method.invoke(Method.java:498)
+25/06/2026 08:34:19 [err] 	at com.datasel.avicenna.server.ACManagerMethodModel.invoke(ACManagerMethodModel.java:78)
+25/06/2026 08:34:19 [err] 	at com.datasel.avicenna.server.ServerFrontController.invokeMethod(ServerFrontController.java:138)
+25/06/2026 08:34:19 [err] 	at com.datasel.avicenna.serverrunner.requestHandlers.ServerRequestHandlerProxy.handle(ServerRequestHandlerProxy.java:134)
+25/06/2026 08:34:19 [err] 	at com.datasel.avicenna.serverrunner.ClientRequestHandler.handle0(ClientRequestHandler.java:85)
+25/06/2026 08:34:19 [err] 	at com.datasel.avicenna.serverrunner.ClientRequestHandler.handle(ClientRequestHandler.java:37)
+25/06/2026 08:34:19 [err] 	at com.datasel.avicenna.serverrunner.ClientRequestHandler.handle(ClientRequestHandler.java:73)
+25/06/2026 08:34:19 [err] 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+25/06/2026 08:34:19 [err] 	at org.eclipse.jetty.server.Server.handle(Server.java:462)
+25/06/2026 08:34:19 [err] 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:281)
+25/06/2026 08:34:19 [err] 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232)
+25/06/2026 08:34:19 [err] 	at org.eclipse.jetty.io.AbstractConnection$1.run(AbstractConnection.java:505)
+25/06/2026 08:34:19 [err] 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+25/06/2026 08:34:19 [err] 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+25/06/2026 08:34:19 [err] 	at java.lang.Thread.run(Thread.java:748)
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 08:59:54 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 08:59:54 [err] ----------->there is no available app server!!!
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 08:59:55 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 08:59:55 [err] ----------->there is no available app server!!!
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 08:59:56 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 08:59:56 [err] ----------->there is no available app server!!!
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 08:59:58 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 08:59:58 [err] ----------->there is no available app server!!!
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 08:59:59 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 08:59:59 [err] ----------->there is no available app server!!!
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 09:00:00 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 09:00:00 [err] ----------->there is no available app server!!!
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 09:00:01 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 09:00:01 [err] ----------->there is no available app server!!!
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 09:00:02 [err] ----------->there is no available app server!!!
+25/06/2026 09:00:02 [err] java.lang.NullPointerException
+25/06/2026 09:00:02 [err] 	at com.datasel.avicenna.bar.admission.client.BarAdmissionPanel.setPermissionPrintMedicalReport(BarAdmissionPanel.java:376)
+25/06/2026 09:00:02 [err] 	at com.datasel.avicenna.bar.admission.client.BarAdmissionPanel.jbInit(BarAdmissionPanel.java:346)
+25/06/2026 09:00:02 [err] 	at com.datasel.avicenna.bar.admission.client.BarAdmissionPanel.<init>(BarAdmissionPanel.java:85)
+25/06/2026 09:00:02 [err] 	at com.datasel.avicenna.mrs.client.episode.MrsEpisodeOpmDetailPanel.<init>(MrsEpisodeOpmDetailPanel.java:151)
+25/06/2026 09:00:02 [err] 	at com.datasel.avicenna.mrs.client.episode.MrsEpisodeOpmPanel$5.progress(MrsEpisodeOpmPanel.java:332)
+25/06/2026 09:00:02 [err] 	at com.datasel.avicenna.client.ACProgressDialog$2.run(ACProgressDialog.java:116)
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 09:00:02 [err] ----------->there is no available app server!!!
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 09:00:02 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 09:00:02 [err] ----------->there is no available app server!!!
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 09:00:03 [err] ----------->there is no available app server!!!
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 09:00:03 [err] ----------->there is no available app server!!!
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.10:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.15:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.11:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.19:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.18:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.13:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.17:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.16:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.14:1980/
+25/06/2026 09:00:03 [err] Application server connection refused: http://10.222.3.12:1980/
+25/06/2026 09:00:03 [err] ----------->there is no available app server!!!
+25/06/2026 09:15:41 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:15:41 [err] 	at java.awt.image.DataBufferInt.<init>(DataBufferInt.java:75)
+25/06/2026 09:15:41 [err] 	at java.awt.image.Raster.createPackedRaster(Raster.java:467)
+25/06/2026 09:15:41 [err] 	at java.awt.image.DirectColorModel.createCompatibleWritableRaster(DirectColorModel.java:1032)
+25/06/2026 09:15:41 [err] 	at java.awt.image.BufferedImage.<init>(BufferedImage.java:333)
+25/06/2026 09:15:41 [err] 	at com.jidesoft.chart.Chart.update(Unknown Source)
+25/06/2026 09:15:41 [err] 	at com.jidesoft.chart.Chart.update(Unknown Source)
+25/06/2026 09:15:41 [err] 	at com.jidesoft.chart.Chart$0.componentResized(Unknown Source)
+25/06/2026 09:15:41 [err] 	at java.awt.Component.processComponentEvent(Component.java:6365)
+25/06/2026 09:15:41 [err] 	at java.awt.Component.processEvent(Component.java:6319)
+25/06/2026 09:15:41 [err] 	at java.awt.Container.processEvent(Container.java:2239)
+25/06/2026 09:15:41 [err] 	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+25/06/2026 09:15:41 [err] 	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+25/06/2026 09:15:41 [err] 	at java.awt.Component.dispatchEvent(Component.java:4711)
+25/06/2026 09:15:41 [err] 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+25/06/2026 09:15:41 [err] 	at java.awt.EventQueue.access$500(EventQueue.java:97)
+25/06/2026 09:15:41 [err] 	at java.awt.EventQueue$3.run(EventQueue.java:709)
+25/06/2026 09:15:42 [err] 	at java.awt.EventQueue$3.run(EventQueue.java:703)
+25/06/2026 09:15:42 [err] 	at java.security.AccessController.doPrivileged(Native Method)
+25/06/2026 09:15:42 [err] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+25/06/2026 09:15:42 [err] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+25/06/2026 09:15:42 [err] 	at java.awt.EventQueue$4.run(EventQueue.java:733)
+25/06/2026 09:15:42 [err] 	at java.awt.EventQueue$4.run(EventQueue.java:731)
+25/06/2026 09:15:42 [err] 	at java.security.AccessController.doPrivileged(Native Method)
+25/06/2026 09:15:42 [err] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+25/06/2026 09:15:42 [err] 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+25/06/2026 09:15:42 [err] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+25/06/2026 09:15:42 [err] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+25/06/2026 09:15:42 [err] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+25/06/2026 09:15:42 [err] 	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+25/06/2026 09:15:42 [err] 	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+25/06/2026 09:15:42 [err] 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+25/06/2026 09:15:42 [err] 	at java.awt.EventQueue.access$500(EventQueue.java:97)
+25/06/2026 09:15:42 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:15:43 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:15:43 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:15:43 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:15:43 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:20:42 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:21:01 [err] Exception in thread "Thread-2148" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:21:18 [err] Exception in thread "Timer-1" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:21:37 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:21:37 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:21:37 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:00 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:00 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:02 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:02 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:05 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:05 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:19 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:19 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:19 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:19 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:25 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:25 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:26 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:26 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
+25/06/2026 09:22:26 [err] Exception in thread "AWT-EventQueue-0" java.lang.OutOfMemoryError: Java heap space
