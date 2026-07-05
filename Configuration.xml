@@ -395,11 +395,11 @@
 	<facilities>
 		<facility name = "Test">
 			<svnServers>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -416,13 +416,13 @@
 		</facility>
 		<facility name = "Prod1">
 			<svnServers>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -447,13 +447,13 @@
 		</facility>
 		<facility name = "Prod2">
 			<svnServers>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -478,13 +478,13 @@
 		</facility>
 		<facility name = "Prod3">
 			<svnServers>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -509,13 +509,13 @@
 		</facility>
 		<facility name = "Prod4">
 			<svnServers>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -540,13 +540,13 @@
 		</facility>
 		<facility name = "Prod5">
 			<svnServers>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -571,13 +571,13 @@
 		</facility>
 		<facility name = "Prod6">
 			<svnServers>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -602,13 +602,13 @@
 		</facility>
 		<facility name = "Prod7">
 			<svnServers>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -633,13 +633,13 @@
 		</facility>
 		<facility name = "Prod8">
 			<svnServers>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -664,13 +664,13 @@
 		</facility>
 		<facility name = "Prod9">
 			<svnServers>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -695,13 +695,13 @@
 		</facility>
 		<facility name = "Prod10">
 			<svnServers>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
@@ -726,13 +726,13 @@
 		</facility>
 		<facility name = "Prod21">
 			<svnServers>
-				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="Av1C3nnA*"/>
-				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="Av1C3nnA*"/>
+				<svnServer url="http://10.222.3.85/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.81/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.222.3.84/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.83/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
+				<svnServer url="http://10.221.3.82/svn/seha" username="avicenna" password="REDACTED_ROTATE_THIS_CREDENTIAL"/>
 			</svnServers>
 			<applicationParameters>
 				<Parameter name="-application_servers">
