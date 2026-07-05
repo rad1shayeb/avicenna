@@ -2,6 +2,7 @@ package org.hospital.avicennaarchive.accessbridge;
 
 import com.sun.jna.Library;
 import com.sun.jna.Native;
+import com.sun.jna.Platform;
 import com.sun.jna.Pointer;
 import com.sun.jna.Structure;
 import com.sun.jna.WString;
@@ -32,7 +33,13 @@ public interface WindowsAccessBridge extends Library {
     int MAX_ACTION_INFO = 256;
     int MAX_ACTIONS_TO_DO = 32;
 
-    WindowsAccessBridge INSTANCE = Native.load("WindowsAccessBridge-64", WindowsAccessBridge.class);
+    // Load the DLL whose bitness matches the JVM this tool runs under: the -32
+    // build if launched with a 32-bit Java (e.g. a 32-bit bundled jre8), the -64
+    // build otherwise. jabswitch /enable places these DLLs on the JRE's bin, which
+    // is on the DLL search path when launched via that JRE's java.exe.
+    WindowsAccessBridge INSTANCE = Native.load(
+        Platform.is64Bit() ? "WindowsAccessBridge-64" : "WindowsAccessBridge-32",
+        WindowsAccessBridge.class);
 
     /** Must be called once at startup; blocks briefly while the bridge discovers running JVMs. */
     void Windows_run();
