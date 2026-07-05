@@ -3,6 +3,7 @@ package org.hospital.avicennaarchive.cli;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.hospital.avicennaarchive.accessbridge.AccessBridgeSession;
+import org.hospital.avicennaarchive.accessbridge.NativeLibs;
 import org.hospital.avicennaarchive.model.AccessibleNode;
 
 import java.io.File;
@@ -20,6 +21,7 @@ import java.io.File;
  */
 public class TreeDumperCli {
     public static void main(String[] args) throws Exception {
+        NativeLibs.ensureAccessBridgeOnPath();
         String titleSubstring = args.length > 0 ? args[0] : "Avicenna";
         String outputFile = args.length > 1 ? args[1] : "accessible-tree.json";
 

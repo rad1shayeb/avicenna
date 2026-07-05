@@ -1,6 +1,7 @@
 package org.hospital.avicennaarchive.cli;
 
 import org.hospital.avicennaarchive.accessbridge.AccessBridgeSession;
+import org.hospital.avicennaarchive.accessbridge.NativeLibs;
 import org.hospital.avicennaarchive.archive.ArchiveWriter;
 import org.hospital.avicennaarchive.extract.PatientRecordExtractor;
 import org.hospital.avicennaarchive.extract.TabSelectors;
@@ -20,6 +21,7 @@ import java.nio.file.Paths;
  */
 public class PatientArchiverCli {
     public static void main(String[] args) throws Exception {
+        NativeLibs.ensureAccessBridgeOnPath();
         if (args.length < 1) {
             System.err.println("Usage: patient-archive-tool <patientId> [outputDir] [selectorsFile] [windowTitle]");
             System.exit(2);
